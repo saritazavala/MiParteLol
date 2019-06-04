@@ -6,10 +6,11 @@
         android:layout_width="match_parent"
         android:animateLayoutChanges="true"
         android:layout_height="match_parent"
-        android:background="@drawable/grad_bg"
+        android:background="@drawable/du"
         tools:context=".MainActivity">
 
     <RelativeLayout
+
             android:layout_width="wrap_content"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
@@ -68,6 +69,7 @@
                     />
 
                     <EditText
+
                             android:layout_width="match_parent"
                             android:layout_marginTop="5dp"
                             android:layout_height="40dp"
@@ -114,6 +116,8 @@
             </LinearLayout>
 
             <Button
+                    android:clickable="true"
+
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:layout_below="@+id/linlay1"
@@ -127,7 +131,7 @@
                     android:textSize="16sp"
                     android:textColor="@color/white"
                     android:fontFamily="sans-serif-medium"
-            />
+                    android:id="@+id/loginB"/>
 
 
         </RelativeLayout>
